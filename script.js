@@ -10,7 +10,7 @@ document.querySelectorAll(".nav-links a").forEach(a => {
 
 document.getElementById("discordBtn").addEventListener("click", (e) => {
   e.preventDefault();
-  if (DISCORD_INVITE.includes("DEIN-LINK-HIER")) {
+  if (DISCORD_INVITE.includes("discord.gg/MyPnnVwbMH")) {
     alert("Bitte trage euren echten Discord-Einladungslink in script.js ein.");
     return;
   }
